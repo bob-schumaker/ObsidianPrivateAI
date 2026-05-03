@@ -869,7 +869,7 @@ class LocalLLMSettingTab extends PluginSettingTab {
 						LoggingUtility.error('Image processing failed:', error);
 						// Show user-friendly error message for vision model issues
 						if (error.message.includes('vision capabilities')) {
-							new Notice('Vision model required: your current LLM model does not support image processing. Please switch to a vision model like Gemma 3 in LM Studio and try again.', 8000);
+							new Notice('Vision model required: your current LLM model does not support image processing. Please switch to a vision model like Gemma 4 in LM Studio and try again.', 8000);
 						} else {
 							new Notice(`Image processing failed: ${error.message}`);
 						}

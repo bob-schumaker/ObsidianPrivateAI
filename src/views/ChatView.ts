@@ -1278,11 +1278,9 @@ It looks like your local LLM server isn't running yet. Here's how to get started
 
 1. **Download and Install LM Studio** from [lmstudio.ai](https://lmstudio.ai)
 3. **Download a model** 
-   * On Apple Macbooks, we recommend:
-	   * \`Gemma 3 12B\` (recommended)
-	   * \`Gemma 3 8B\`
-   * On Windows, we recommend: 
-       * \`Gemma 3\`
+   * We recommend:
+	   * \`Gemma 4 E4B\` (recommended)
+	   * \`Gemma 4 E2B\`
 	   * Select the largest parameter size that LM Studio says can fit on your GPU
 4. **Load the model** in LM Studio
    * Once the model is downloaded, select the model in the top center toolbar to load it
